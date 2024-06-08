@@ -1,3 +1,8 @@
+# Custom
+/github-qna-bot/data
+/github-qna-bot/cache
+/github-qna-bot/langchain_faiss
+
 # Byte-compiled / optimized / DLL files
 /*/__pycache__/
 /*/*.py[cod]
