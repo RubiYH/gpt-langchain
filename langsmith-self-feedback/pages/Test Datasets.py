@@ -11,7 +11,7 @@ st.title("🦜 Self Learning GPT 테스트")
 # API KEY 정보를 불러옵니다
 from dotenv import load_dotenv, find_dotenv
 
-load_dotenv(find_dotenv())
+load_dotenv(dotenv_path="../../.env")
 
 # LangSmith 설정
 client = Client()

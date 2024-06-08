@@ -1,3 +1,7 @@
+# Reference
+# https://www.youtube.com/watch?v=8JEbrboSumg
+#
+
 import streamlit as st
 from langchain import memory as lc_memory
 from langsmith import Client
@@ -8,7 +12,7 @@ from langchain_core.tracers.context import collect_runs
 # API KEY 정보를 불러옵니다
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(dotenv_path="../.env")
 
 client = Client()
 

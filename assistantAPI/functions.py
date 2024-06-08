@@ -18,7 +18,7 @@ def show_json(obj):
 # API KEY 정보를 불러옵니다
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(dotenv_path='../.env')
 
 import os
 
